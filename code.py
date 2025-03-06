@@ -16,7 +16,7 @@ execution_metadata = {
 
 st.title('Advanced DNA Promoter Prediction and Non-B DNA Motif Analysis')
 st.write('Upload multiple FASTA files to analyze DNA motifs, predict promoter regions, and visualize results.')
-st.image('https://raw.githubusercontent.com/chandrika180898/cisregprediction/main/images/utr%20image.jpg', caption='DNA Structure')
+st.image('https://github.com/chandrika180898/nnbdna/blob/main/utr_image.jpg', caption='DNA Structure')
 
 
 uploaded_files = st.file_uploader("Upload FASTA Files", type=['fasta'], accept_multiple_files=True)
